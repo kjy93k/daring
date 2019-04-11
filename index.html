@@ -220,9 +220,11 @@ $(function(){
 	});
 	$('.float-video img').click(function(){
 		$('.video-pop').show();
+		$('.video-pop iframe').attr('src','https://www.youtube.com/embed/f9H_pCdvSC0')
 	});
 	$('.video-pop button').click(function(){
 		$('.video-pop').hide();
+		$('.video-pop iframe').attr('src','')
 	});
 
 	$(function () {
