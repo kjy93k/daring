@@ -179,7 +179,7 @@ $(function(){
 			'color':'#000'
 		});
 		$('.gnb>ul>li>ul').show();
-		$('.logo img').attr('src','./asset/img/logo.png')
+		$('.logo img').attr('src','./asset/img/logo.png');
 	});
 	$('.gnb').mouseout(function(){
 		$('.header-wrap').css({
@@ -189,6 +189,7 @@ $(function(){
 			'color':'#fff'
 		});
 		$('.gnb>ul>li>ul').hide();
+		$('.logo img').attr('src','./asset/img/logo_white.png');
 	});
 
 	$('.content2 .tab h3').click(function(){
@@ -206,7 +207,9 @@ $(function(){
 		});
 		}
 	});
-	
+	$('.float-video button').click(function(){
+		$('.float-video').hide();
+	});
 });
 </script>
 </body>
