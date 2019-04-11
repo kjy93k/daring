@@ -224,6 +224,23 @@ $(function(){
 	$('.video-pop button').click(function(){
 		$('.video-pop').hide();
 	});
+
+	$(function () {
+    floatVideoUp();
+
+    function floatVideoUp() {
+        $('.float-video').animate({
+            'top': 400
+        }, 1000, null, floatVideoDown);
+    }
+
+    function floatVideoDown() {
+        $('.float-video').animate({
+            'top': 390
+        }, 700, null, floatVideoUp);
+    }
+});
+
 });
 </script>
 </body>
