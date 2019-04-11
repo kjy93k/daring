@@ -91,7 +91,7 @@ button{background: none;border: none;}
 .visualbottom .float_dday{position: absolute;top: -190px;height: 271px;padding-top: 145px;text-align: center;background: url('../img/float_dday.png') 0 0 no-repeat;}
 .visualbottom .float_dday:before{content: '';display: inline-block;height: 100%;vertical-align: middle;}
 .visualbottom .float_dday p{display: inline-block;width: 270px;font-size: 66px;color: #fff;}
-.visualbottom .float_announce{position: absolute;top: -137px;left: 250px;padding: 0 0 0 20px;background: url('../img/float_bntbg.png') 0 0 no-repeat;}
+.visualbottom .float_announce{display: none;position: absolute;top: -137px;left: 250px;padding: 0 0 0 20px;background: url('../img/float_bntbg.png') 0 0 no-repeat;}
 .visualbottom .float_announce li{float: left;}
 
 /**content title**/
@@ -126,4 +126,5 @@ button{background: none;border: none;}
 
 /**float-icon**/
 .float-video{position: fixed;top: 390px;right: 360px;}
+.float-video img(cursor: pointer;)
 .float-video button{position: absolute;top: 0;right: 0;}
