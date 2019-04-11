@@ -168,6 +168,12 @@
 	<img src="./asset/img/float_video.png" alt="">
 	<button><img src="./asset/img/btn_x_small.png" alt=""></button>
 	</div>
+	<div class="video-pop">
+		<div class="video-inner">
+			<iframe width="854" height="480" src="https://www.youtube.com/embed/f9H_pCdvSC0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<button><img src="./asset/img/btn_x.png" alt=""></button>
+		</div>
+	</div>
 </div>
 <script>
 $(function(){
@@ -211,6 +217,12 @@ $(function(){
 	});
 	$('.float-video button').click(function(){
 		$('.float-video').hide();
+	});
+	$('.float-video img').click(function(){
+		$('.video-pop').show();
+	});
+	$('.video-pop button').click(function(){
+		$('.video-pop').hide();
 	});
 });
 </script>
