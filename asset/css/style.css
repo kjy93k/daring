@@ -64,7 +64,7 @@ input[type="text"],input[type="password"],input[type="tel"], select,textarea{bor
 button{background: none;border: none;}
 
 /**main page header**/
-.wrap{font-family: 'Noto Sans KR';}
+.wrap{font-family: 'Noto Sans KR';min-width: 1200px;}
 .header-wrap{position: absolute;width: 100%;height: 136px;color: #fff;overflow: hidden;z-index: 2;-webkit-transition: height .5s; transition: height .5s;}
 .header-wrap:before{content: '';display: block;width: 100%;height: 135px;position: absolute;top: 0;left: 0;border-bottom: 1px solid #999;}
 #header{width: 1200px;margin: 0 auto;padding: 35px 0 25px;}
@@ -77,11 +77,20 @@ button{background: none;border: none;}
 .gnb-wrap>.gnb>ul>li{float: left;width: 33%;height: 100px;line-height: 100px;text-align: center;font-size: 18px;letter-spacing: -2px;}
 .gnb-wrap>.gnb>ul>li>ul>li{line-height: 20px;padding-top: 47px;}
 
-/**mainpage visual**/
+/**main visual**/
 .bx-wrapper{margin-bottom: 0;-webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;border: none;background: none;}
 .bx-wrapper .bx-pager{display: none;}
-.main-visual .visual_txt{position: absolute;top: 230px;left: 410px;}
-.main-visual .visual_txt img{margin-bottom: 20px;}
+.bx-wrapper .bx-controls-direction{width: 1095px; margin: 0 auto;position: relative;top: -322px;}
+.bx-wrapper .bx-controls-direction a{position: relative;display: inline-block;top: 0;margin-top: 0;}
+.main-visual li{height: 850px;background-position: center 0;}
+.main-visual .main-visual1{background-image: url('../img/bg_visual1.png');}
+.main-visual .main-visual2{background-image: url('../img/bg_visual2.png');}
+.main-visual .main-visual3{background-image: url('../img/bg_visual3.png');}
+
+
+
+/* .main-visual .visual_txt{position: absolute;top: 230px;left: 410px;}
+.main-visual .visual_txt img{margin-bottom: 20px;} */
 /**container**/
 .container{background: url('../img/bg_main.png') top center no-repeat;}
 .content{width: 1200px;margin: 0 auto;position: relative;}
@@ -125,7 +134,7 @@ button{background: none;border: none;}
 #footer .right{float: right;}
 
 /**video-pop**/
-.float-video{position: fixed;top: 390px;right: 360px;}
+.float-video{position: fixed;top: 390px;right: 160px;}
 .float-video img{cursor: pointer;}
 .float-video button{position: absolute;top: 0;right: 0;}
 .video-pop{display: none;width: 100%;height: 100%;position: fixed;top: 0;left: 0;z-index: 10;background: rgba(0,0,0,.8);text-align: center;}
