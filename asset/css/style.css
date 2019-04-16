@@ -82,6 +82,8 @@ button{background: none;border: none;}
 .bx-wrapper .bx-pager{display: none;}
 .bx-wrapper .bx-controls-direction{width: 1095px; margin: 0 auto;position: relative;top: -322px;}
 .bx-wrapper .bx-controls-direction a{position: relative;display: inline-block;top: 0;margin-top: 0;}
+.bx-wrapper .bx-controls-direction .bx-prev{left: 40px;}
+.bx-wrapper .bx-controls-direction .bx-next{left: 100px;}
 .main-visual li{height: 850px;background-position: center 0;}
 .main-visual .main-visual1{background-image: url('../img/bg_visual1.png');}
 .main-visual .main-visual2{background-image: url('../img/bg_visual2.png');}
